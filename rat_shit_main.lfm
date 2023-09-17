@@ -1,9 +1,12 @@
-object Form1: TForm1
+object FormRatShit: TFormRatShit
   Left = 891
   Height = 641
   Top = 363
   Width = 847
-  Caption = 'Form1'
+  Caption = 'RatShit'
   DesignTimePPI = 144
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poScreenCenter
   LCLVersion = '1.8.4.0'
 end

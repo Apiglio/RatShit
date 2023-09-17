@@ -7,7 +7,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, rat_shit_main, ratshit_document
+  Forms, rat_shit_main, ratshit_document, ratshit_misc, ratshit_edit
   { you can add units after this };
 
 {$R *.res}
@@ -15,7 +15,7 @@ uses
 begin
   RequireDerivedFormResource:=True;
   Application.Initialize;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFormRatShit, FormRatShit);
   Application.Run;
 end.
 

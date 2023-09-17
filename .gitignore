@@ -1,4 +1,6 @@
 ﻿file_test/*
 backup/*
+*/backup/*
+lib/*
 *.bak
 *.exe
